@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.impressum-page {
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 40px;
+
+    background: linear-gradient(135deg,
+            #f7f3ee,
+            #e8f1ec);
+}
+
+.impressum-card {
+    width: 100%;
+    max-width: 750px;
+
+    background: white;
+
+    padding: 50px;
+
+    border-radius: 30px;
+
+    box-shadow:
+        0 20px 60px rgba(0, 0, 0, 0.1);
+}
+
+.impressum-card h1 {
+    text-align: center;
+    margin-bottom: 40px;
+
+    color: #2f5d50;
+}
+
+.impressum-card section {
+    margin-bottom: 30px;
+}
+
+.impressum-card h2 {
+    margin-bottom: 10px;
+
+    font-size: 1.1rem;
+
+    color: #2f5d50;
+}
+
+.impressum-card p {
+    line-height: 1.8;
+    color: #555;
+}
+
+.back-button {
+    display: inline-block;
+
+    margin-top: 20px;
+
+    padding: 14px 24px;
+
+    background: #2f5d50;
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 999px;
+
+    font-weight: 600;
+}
