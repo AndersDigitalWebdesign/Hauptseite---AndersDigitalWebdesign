@@ -1,0 +1,141 @@
+/* ----- NAVBAR ----- */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    box-sizing: border-box;
+    padding: 14px 8%;
+
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(12px);
+
+    z-index: 1000;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    text-decoration: none;
+}
+
+.logo-container img {
+    height: 75px;
+    width: auto;
+    display: block;
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-text span {
+    font-size: 1.45rem;
+    font-weight: 800;
+    color: #2f5d50;
+}
+
+.logo-text small {
+    font-size: 0.72rem;
+    letter-spacing: 1.6px;
+    color: #666;
+    text-transform: uppercase;
+}
+
+.nav-links {
+    display: flex;
+    gap: 32px;
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: 0.2s;
+}
+
+.nav-links a:hover {
+    color: #2f5d50;
+    text-decoration: underline;
+}
+
+.nav-btn {
+    text-decoration: none;
+    background: #2f5d50;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 999px;
+    font-weight: 600;
+}
+
+/* ----- FOOTER ----- */
+footer {
+    background-color: #1f2f29;
+
+    color: white;
+
+    padding: 60px 10% 30px;
+
+    margin-top: 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px;
+
+    flex-wrap: wrap;
+}
+
+.footer-info h3 {
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+}
+
+.footer-info p {
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.8;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer-links a {
+    color: rgba(255, 255, 255, 0.85);
+    text-decoration: none;
+
+    transition: 0.2s;
+}
+
+.footer-links a:hover {
+    color: white;
+}
+
+.footer-bottom {
+    margin-top: 40px;
+    padding-top: 20px;
+
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+
+    text-align: center;
+
+    color: rgba(255, 255, 255, 0.6);
+}
